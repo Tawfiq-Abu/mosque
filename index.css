@@ -94,7 +94,7 @@ a{
     align-items: center; */
     height:80vh;
     width: 100%;
-    background-color:hsl(226,31%,17%);
+    background-color:hsl(226,31%,20%);
 
 }
 
@@ -189,7 +189,7 @@ a{
     font-size:3rem;
     flex-basis: 0;
     flex-grow: 1;
-    background-color: hsl(226,31%,17%);
+    background-color: hsl(226,31%,20%);
     color:white;
     padding: 1.5rem;
     width: 100%;
