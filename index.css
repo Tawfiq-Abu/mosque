@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position:fixed;
+    width:100%;
+    display:flex;
+    background-color:hsl(226,31%,17%);
+    align-items: center;
+
+
+}
+
+.mosque{
+    margin-right:134px;
+}
+
+
+.menu{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content:center;
+    align-items: center;
+    height:70px;
+    
+}
+li{
+    padding:2rem;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
+}
+.current{
+    color:white;
+}
+.images{
+    height:100vh;
+    width:100%;
+    background-color: hotpink;
+    background-image:url(mosque.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.center{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80vh;
+    width: 100%;
+}
+
+.offers{
+    background-color: blue;
+    height: 70%;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.live{
+    background-image: url(live.jpg);
+    background-size:cover;
+    color: white;
+    box-shadow: inset 0 0 1000px 0 hsl(227deg 2% 24%);
+    font-size: 3rem;
+}
+
+.counseling{
+    background-image: url(counseling.jpg);
+    background-size:cover;
+    color: white;
+    box-shadow: inset 0 0 1000px 0 hsl(227deg 2% 24%);
+    font-size: 3rem;
+
+}
+
+.learning{
+    background-image: url(learning.jpg);
+    background-size:cover;
+    color: white;
+    box-shadow: inset 0 0 1000px 0 hsl(227deg 2% 24%);
+    font-size: 3rem;
+}
+
+.belowbelt{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-around;
+    align-items: center; */
+    height:80vh;
+    width: 100%;
+    background-color:hsl(226,31%,17%);
+
+}
+
+.heading{
+    flex-basis: 0;
+    flex-grow: 1;
+    font-size:4rem;
+    text-align: center;
+    color: white;
+}
+.infor{
+    flex-basis: 0;
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imam-info{
+    display:grid;
+    grid-template-columns:repeat(2 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas: 
+    "pic header"
+    "pic content";
+    width: 30%;
+    column-gap: 10px;
+
+
+}
+.imam1 .pic{
+    grid-area: pic;
+    border-radius:50%;
+    background-image: url(imam1.jpg);
+    background-size:cover;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+
+}
+
+.imam2 .pic{
+    grid-area: pic;
+    border-radius:50%;
+    background-image: url(imam1.jpg);
+    background-size:cover;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    gap: 10px;
+
+}
+
+.imam3 .pic{
+    grid-area: pic;
+    border-radius:50%;
+    background-image: url(imam1.jpg);
+    background-size:cover;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    gap: 10px;
+
+}
+.name{
+    color: white;
+    font-size:2rem;
+    grid-area: header;
+}
+.description{
+    color:white;
+    grid-area: content;
+}
+
+.beforefooter{
+    height:80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dates{
+    height:70%;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
+.september{
+    font-size:3rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    background-color: hsl(226,31%,17%);
+    color:white;
+    padding: 1.5rem;
+    width: 100%;
+}
+.lorem1{
+    font-size:1.5rem;
+    flex-basis: 0;
+    flex-grow: 2;
+}
+
+footer{
+    height:50vh;
+    width:100%;
+    background-color: hsl(226,31%,17%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+.nice{
+    font-size:4rem;
+    color: white;
+}
+span{
+    padding:2rem;
+}
+.copyright{
+    color:white;
+}
+.svg{
+    color:white;
+}
