@@ -82,6 +82,7 @@ a{
 .learning{
     background-image: url(learning.jpg);
     background-size:cover;
+    background-position: center;
     color: white;
     box-shadow: inset 0 0 1000px 0 hsl(227deg 2% 24%);
     font-size: 3rem;

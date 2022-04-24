@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position:fixed;
+    width:100%;
+    display:flex;
+    background-color:hsl(226,31%,17%);
+    align-items: center;
+
+
+}
+
+.mosque{
+    margin-right:134px;
+}
+
+
+.menu{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content:center;
+    align-items: center;
+    height:70px;
+    
+}
+li{
+    padding:2rem;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
+}
+.current{
+    color:white;
+}
+/* .afterheader{
+    margin-top: 70px;
+} */
+
+.afterheader{
+    padding-top:120px;
+    min-height:20vh;
+}
+#afterheader{
+    text-align: center;
+    font-size: 4rem;
+    color:hsl(226,31%,20%);
+
+}
+
+.center{
+    margin-top:20px;
+    width:100%;
+    min-height:250vh;
+    display: flex;
+}
+.info1{
+    flex-basis: 0;
+    flex-grow: 2;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap:30px;
+    padding-left:20px;
+    grid-template-areas:
+    "a b"
+    "c d"
+    "e f"
+    "g h";
+}
+.info2{
+    flex-basis:0;
+    flex-grow: 1;
+    display: grid;
+    flex-direction: column;
+    margin-left: 10px;
+    
+}
+.pic1{
+    grid-area: a;
+    background-image: url(salat.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.pic2{
+    grid-area: b;
+    background-image: url(hajj.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.salat,.pilgrimage,.kindness,.patience,.rechead{
+    font-size:3rem;
+    color:white;
+    padding: 10px;  
+    margin-bottom: 20px;
+    background-color:hsl(226,31%,20%);
+
+}
+.text1{
+    grid-area: c;
+    font-size:1.5rem;
+    color:hsl(226,31%,20%);
+
+}
+.pilgrimage{
+    font-size:3rem;
+    color:white;
+    background-color:hsl(226,31%,20%)
+}
+.text2{
+    grid-area: d;
+    font-size:1.5rem;
+    color:hsl(226,31%,20%);
+
+}
+.pic3{
+    grid-area: e;
+    background-image: url(kindness.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pic4{
+    grid-area: f;
+    background-image: url(patience.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text3{
+    grid-area: g;
+    font-size:1.5rem;
+    color:hsl(226,31%,20%);
+
+}
+.text4{
+    grid-area: h;
+    font-size:1.5rem;
+    color:hsl(226,31%,20%);
+
+}
+.random{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.numberone{
+    border-radius:50%;
+    color:whitesmoke;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 1.5;
+    height:35px;
+    width: 35px;
+    background-color :hsl(226,31%,20%);
+}
+.firsttext{
+    font-size:1.5rem;
+    color:hsl(226,31%,20%);
+}
+
+.belowbelt{
+    width:100%;
+    min-height:70vh;
+    display: flex; 
+}
+.rectangle{
+    background-color :hsl(226,31%,20%);
+    color:white;
+    width:50%;
+    /* height:50%; */
+    margin-left:50px;
+    padding:30px;
+    font-size:1.3rem;
+    margin-bottom: 40px;
+}
+.rectanglepic{
+    flex-grow: 1;
+    background-image: url(tasbih.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 50px;
+    margin-bottom: 40px;
+
+}
+
+footer{
+    height:50vh;
+    width:100%;
+    background-color: hsl(226,31%,17%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+.nice{
+    font-size:4rem;
+    color: white;
+}
+span{
+    padding:2rem;
+}
+.copyright{
+    color:white;
+}
+.svg{
+    color:white;
+}
