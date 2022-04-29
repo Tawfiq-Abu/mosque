@@ -30,6 +30,10 @@ nav{
 li{
     padding:2rem;
 }
+li:hover{
+    border-color:hsl(226,31%,10%);
+    box-shadow:0 0 10px 0 hsl(226,31%,10%);
+}
 a{
     text-decoration: none;
     color:white;
